@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.16.x",
+    "npm": "6.11.x"
+  },
+  "description": "Simple HTTP Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txc1321/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Tim Carter",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/txc1321/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/txc1321/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
